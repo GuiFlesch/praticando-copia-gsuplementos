@@ -1,0 +1,89 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+
+    font-family: "Roboto", sans-serif;
+
+    color: #201e1f;
+    font-weight: 400;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+
+    width: 100%;
+    
+}
+.container .div-top {
+
+    display: flex;
+    justify-content: center;
+    background: rgb(0, 0, 0);
+    color: #009EDF;
+    width: 100%;
+    padding: 10px;
+}
+
+.container .div-top strong{
+    color:#009EDF;
+    font-weight: 600;
+    padding: 0px 2px;
+}
+
+section {
+    display: flex;
+    width: 100%;
+    background: #009EDF;
+}
+
+section img#logo {
+    margin-left: 200px;
+    
+}
+
+section .row{
+    position: relative;
+}
+
+section .row input{
+    height: 50px;
+    width: 100%;
+    position: absolute;
+    left: 500px;
+    top: 40px;
+    padding-left: 15px;
+    border-radius: 3px;
+}
+
+section .row button{
+    position: absolute;
+    left: 930px;
+    top: 40px;
+    border-radius: 3px;
+    background: #ffff;
+    padding-bottom: 1.7px;
+    padding-right: 15px;
+    max-width: 400px;
+}
+
+
+section .row button:hover{
+    cursor: pointer;
+}
+
+
